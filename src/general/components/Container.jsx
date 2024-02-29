@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { desktop, tablet } from "../media/media";
-
+// container home win fail pause lar uchun
 const StyledContainer = styled.div`
   min-height: 100%;
   padding-left: 25px;
@@ -15,7 +15,7 @@ const StyledContainer = styled.div`
     ),
     url(/images/background-mobile.svg) no-repeat center/cover`
       : `url(/images/background-mobile.svg) no-repeat center/cover`};
-
+//media
   ${tablet} {
     padding-left: 40px;
     padding-right: 48px;
@@ -48,7 +48,7 @@ const StyledContainer = styled.div`
         : `url(/images/background-desktop.svg) no-repeat center/cover`};
   }
 `;
-
+// container jsx
 const Container = ({ children, className, bgBlur }) => {
   return (
     <StyledContainer $bgBlur={bgBlur} className={className}>

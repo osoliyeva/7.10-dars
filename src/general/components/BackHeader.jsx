@@ -4,12 +4,14 @@ import Title from "./Title";
 import { useNavigate } from "react-router-dom";
 import { desktop, tablet } from "../media/media";
 
+
+// header div style
 const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
 `;
-
+//icon style
 const Block = styled.div`
   display: none;
   ${tablet} {
@@ -23,7 +25,7 @@ const Block = styled.div`
     height: 94px;
   }
 `;
-
+// header jsx
 const BackHeader = ({ icon, title }) => {
   const navigate = useNavigate();
   return (

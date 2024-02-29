@@ -1,3 +1,5 @@
+//play again category quit game ni ochib beradigan iconkani modali
+
 export default () => {
   const showModal = () => {
     document.getElementById("dialog").showModal();

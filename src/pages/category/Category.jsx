@@ -3,7 +3,7 @@ import Container from "../../general/components/Container";
 import BackHeader from "../../general/components/BackHeader";
 import CategoryList from "./components/CategoryList";
 import { desktop, tablet } from "../../general/media/media";
-
+// bitta kategoriyani yasadik betta
 const StyledContainer = styled(Container)`
   padding-top: 32px;
   padding-bottom: 32px;

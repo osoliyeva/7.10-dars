@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { desktop, tablet } from "../media/media";
-
+//  backheader icon style
 const StyledIconButton = styled.button`
   border: none;
   cursor: pointer;
@@ -25,7 +25,7 @@ const StyledIconButton = styled.button`
       ),
       linear-gradient(180deg, #fe71fe 16.42%, #7199ff 100%);
   }
-
+//media
   ${tablet} {
     width: 64px;
     height: 64px;
@@ -41,6 +41,7 @@ const StyledIconButton = styled.button`
     }
   }
 `;
+//icon jsx
 const IconButton = ({ icon, onClick }) => {
   return (
     <StyledIconButton onClick={onClick}>

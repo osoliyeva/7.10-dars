@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 import { tablet } from "../media/media";
-
+//button style
 const StyledButton = styled.button`
   border: none;
   cursor: pointer;
@@ -10,7 +10,7 @@ const StyledButton = styled.button`
   letter-spacing: 1.6px;
   font-size: 32px;
   transition: all 300ms;
-
+//button hover
   &:hover {
     background: linear-gradient(
         0deg,
@@ -19,7 +19,7 @@ const StyledButton = styled.button`
       ),
       #2463ff;
   }
-
+// button variant circular or rectangular
   ${props => {
     switch (props.$variant) {
       case "circular":
@@ -51,7 +51,7 @@ const StyledButton = styled.button`
         break;
     }
   }}
-
+// button bg danger
   ${props =>
     props.$danger &&
     css`
@@ -71,7 +71,7 @@ const StyledButton = styled.button`
       }
     `}
 `;
-
+//button jsx
 const Button = ({ children, onClick, variant, danger }) => {
   return (
     <StyledButton $danger={danger} $variant={variant} onClick={onClick}>

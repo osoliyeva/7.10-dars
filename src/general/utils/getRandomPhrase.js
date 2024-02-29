@@ -1,3 +1,4 @@
+//so'zlarni random qiladigan funksiyamiz
 export default phrases => {
   const filtered = phrases.filter(phrase => !phrase.selected);
   const maxIndex = filtered.length;

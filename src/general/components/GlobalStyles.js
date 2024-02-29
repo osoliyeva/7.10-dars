@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-
+// umumiy stillar "tozalash ishlari"
 const GlobalStyles = createGlobalStyle`
 *, *::before, *::after {
   box-sizing: border-box;

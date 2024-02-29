@@ -1,3 +1,5 @@
+//mavzular :-) ranglar
+
 export default {
   colors: {
     navy: "#261676",

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { desktop, tablet } from "../media/media";
-
+ //general text style
 const StyledTitle = styled.h3`
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #243041;
@@ -21,7 +21,7 @@ const StyledTitle = styled.h3`
     letter-spacing: -0.68px;
   }
 `;
-
+// title jsx
 const Title = ({ children, className }) => {
   return <StyledTitle className={className}>{children}</StyledTitle>;
 };

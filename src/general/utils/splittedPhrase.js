@@ -1,3 +1,4 @@
+// tanlangan category bo'yicha so'zlarni massiv qilib olish uchun
 export default phrase => {
   if (!phrase) {
     return [];
